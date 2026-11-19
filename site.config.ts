@@ -48,4 +48,4 @@ export const steps = [
   { title: "Launch and support", text: "Your site goes live on your domain, and I stay on hand for updates." },
 ];
 
-export const stack = ["React", "Next.js", "TypeScript", "Node.js", "Laravel", "PHP", "WordPress", "Django", "MySQL", "PostgreSQL", "Tailwind CSS"];
+export const stack = ["React", "Next.js", "Angular", "TypeScript", "Node.js", "Laravel", "PHP", "WordPress", "Django", "MySQL", "PostgreSQL", "Tailwind CSS"];
