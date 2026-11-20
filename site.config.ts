@@ -17,11 +17,11 @@ export function wa(message: string) {
 }
 
 export const audiences = [
-  { title: "Schools", text: "Admissions information, academic programmes, news, gallery and a parent contact page. Student or fee portals when you’re ready." },
-  { title: "Churches", text: "Service times, sermons, events, giving details, prayer requests and a mobile-first layout for members on the go." },
-  { title: "Hotels", text: "Room pages, photo galleries, location map, enquiry or booking requests and WhatsApp contact." },
-  { title: "Real estate", text: "Property listings with filters, photo galleries, agent contacts and an admin dashboard to add or remove listings yourself." },
-  { title: "Cooperatives and microfinance", text: "Member records, loan applications, approvals, repayments and staff dashboards with role-based access." },
+  { title: "Schools", text: "Admissions information, academic programmes, news, gallery and a parent contact page. Student or fee portals when you’re ready.", features: ["Admissions information and online enquiry forms", "Academic programmes and class pages", "News, events and photo galleries", "Parent contact and WhatsApp integration", "Student and fee portals when you’re ready"] },
+  { title: "Churches", text: "Service times, sermons, events, giving details, prayer requests and a mobile-first layout for members on the go.", features: ["Service times and location maps", "Sermon, audio and video pages", "Events calendar and announcements", "Giving details and prayer requests", "Mobile-first layout for members on the go"] },
+  { title: "Hotels", text: "Room pages, photo galleries, location map, enquiry or booking requests and WhatsApp contact.", features: ["Room pages with rates and photo galleries", "Enquiry or booking requests", "Location map and nearby attractions", "Facilities, restaurant and event pages", "WhatsApp contact for quick bookings"] },
+  { title: "Real estate", text: "Property listings with filters, photo galleries, agent contacts and an admin dashboard to add or remove listings yourself.", features: ["Property listings with search and filters", "Photo galleries and property details", "Agent profiles and contact forms", "Admin dashboard to add or remove listings", "WhatsApp enquiry button on every property"] },
+  { title: "Cooperatives and microfinance", text: "Member records, loan applications, approvals, repayments and staff dashboards with role-based access.", features: ["Member registration and records", "Loan applications and approvals", "Repayment and transaction tracking", "Staff dashboards with role-based access", "Reports and financial summaries"] },
 ];
 
 export const projects = [
@@ -39,7 +39,19 @@ export const plans = [
     features: ["School or member portals", "Loan and records management", "Property listings with admin dashboard", "Staff logins with different access levels"] },
 ];
 
-export const carePlan = { price: "₦10,000", text: "Hosting, backups, security updates and small content changes, so your site stays online and up to date after launch." };
+export const carePlan = {
+  price: "₦10,000",
+  text: "Hosting, backups, security updates and small content changes, so your site stays online and up to date after launch.",
+  features: [
+    "Fast, secure website hosting",
+    "SSL certificate setup and renewal",
+    "Regular backups of your website",
+    "Security and software updates",
+    "Small content changes (text, images, prices)",
+    "Uptime checks and quick fixes if something breaks",
+    "Support by WhatsApp or email",
+  ],
+};
 
 export const steps = [
   { title: "Tell me what you need", text: "Send a WhatsApp message or book a short call. I ask about your goals, pages and deadline." },
