@@ -20,7 +20,7 @@
 }
 html{scroll-padding-top:calc(72px + env(safe-area-inset-top,0px));scroll-behavior:smooth}
 *,*::before,*::after{box-sizing:inherit}
-body{margin:0;background:var(--bg);color:var(--ink);font:400 1.0625rem/1.65 var(--body)}
+body{ font-family: Arial, Helvetica, sans-serif;  margin:0;background:var(--bg);color:var(--ink);font:400 1.0625rem/1.65 var(--body)}
 body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:30}
 a{color:inherit}
 img,svg{max-width:100%}
