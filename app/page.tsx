@@ -1,4 +1,3 @@
-
 import {
   site,
   wa,
@@ -40,15 +39,11 @@ export default function Home() {
       </header>
 
       <main id="top">
-
         {/* HERO SECTION */}
-
         <section className="hero">
           <div className="wrap hero-grid">
             <div>
-              <h1>
-                Digital Solutions That Help Businesses Grow
-              </h1>
+              <h1>Digital Solutions That Help Businesses Grow</h1>
 
               <p className="lead">
                 Websites that bring you students, guests, customers
@@ -96,9 +91,7 @@ export default function Home() {
                 <b />
                 <b />
                 <b />
-                <span className="url">
-                  yourbusiness.com.ng
-                </span>
+                <span className="url">yourbusiness.com.ng</span>
               </div>
 
               <div className="page">
@@ -121,23 +114,24 @@ export default function Home() {
         </section>
 
         {/* INDUSTRIES */}
-
         <section className="for" id="for">
           <div className="wrap">
-            <h2>
-              Digital Solutions Designed Around Your Organisation
-            </h2>
+            <h2>Digital Solutions Designed Around Your Organisation</h2>
 
             <p
-            className="lead"
-            style={{ width: "100%", maxWidth: "none" }}
-          >
-            Every industry has unique goals and operational needs. We develop professional websites and custom management
-            systems tailored to your organisation. Our solutions combine modern design, powerful functionality and user-friendly
-            features to help you reach your audience, showcase your services, streamline daily operations and improve efficiency.
-            Whether you manage a school, church, hotel, real estate company or cooperative, we deliver reliable digital solutions
-            that strengthen your online presence and support business growth.
-          </p>
+              className="lead"
+              style={{ width: "100%", maxWidth: "none" }}
+            >
+              Every industry has unique goals and operational needs. We develop
+              professional websites and custom management systems tailored to
+              your organisation. Our solutions combine modern design, powerful
+              functionality and user-friendly features to help you reach your
+              audience, showcase your services, streamline daily operations
+              and improve efficiency. Whether you manage a school, church,
+              hotel, real estate company or cooperative, we deliver reliable
+              digital solutions that strengthen your online presence and
+              support business growth.
+            </p>
 
             <h2>Industries We Serve</h2>
 
@@ -145,7 +139,6 @@ export default function Home() {
               {audiences.map((a) => (
                 <li key={a.title}>
                   <strong>{a.title}</strong>
-
                   <span>{a.text}</span>
 
                   <ul>
@@ -160,7 +153,6 @@ export default function Home() {
         </section>
 
         {/* PROJECTS */}
-
         <section id="work">
           <div className="wrap">
             <h2>Our Projects and Solutions</h2>
@@ -194,12 +186,9 @@ export default function Home() {
         </section>
 
         {/* PRICING */}
-
         <section id="prices" style={{ paddingTop: 24 }}>
           <div className="wrap">
-            <h2>
-              Transparent Pricing. Professional Delivery.
-            </h2>
+            <h2>Transparent Pricing. Professional Delivery.</h2>
 
             <p className="lead">
               We offer flexible development packages to suit
@@ -215,9 +204,7 @@ export default function Home() {
                   key={p.name}
                 >
                   <h3>{p.name}</h3>
-
                   <div className="amt">{p.price}</div>
-
                   <small>{p.note}</small>
 
                   <ul>
@@ -241,7 +228,6 @@ export default function Home() {
             </div>
 
             {/* HOSTING AND MAINTENANCE */}
-
             <div className="care">
               <div>
                 <h3>Website Hosting and Maintenance</h3>
@@ -276,7 +262,6 @@ export default function Home() {
         </section>
 
         {/* DEVELOPMENT PROCESS */}
-
         <section id="process">
           <div className="wrap">
             <h2>Our Development Process</h2>
@@ -292,7 +277,6 @@ export default function Home() {
                   <h3>
                     {String(index + 1).padStart(2, "0")}. {s.title}
                   </h3>
-
                   <p>{s.text}</p>
                 </li>
               ))}
@@ -326,7 +310,6 @@ export default function Home() {
         </section>
 
         {/* ABOUT */}
-
         <section id="about">
           <div className="wrap about">
             <div>
@@ -357,12 +340,10 @@ export default function Home() {
               <p>
                 Our goal is simple: to deliver digital solutions
                 that solve real business problems and create
-                lasting value for our clients. our team is committed to
-                delivering professional and reliable digital
+                lasting value for our clients. Our team is committed
+                to delivering professional and reliable digital
                 solutions.
               </p>
-
-
             </div>
 
             <div>
@@ -386,7 +367,6 @@ export default function Home() {
         </section>
 
         {/* CONTACT */}
-
         <section id="contact" style={{ paddingTop: 0 }}>
           <div className="wrap">
             <div className="contact">
@@ -444,7 +424,6 @@ export default function Home() {
       </main>
 
       {/* FOOTER */}
-
       <footer>
         <div className="wrap">
           <span>
@@ -459,9 +438,7 @@ export default function Home() {
             >
               GitHub
             </a>
-
             {" · "}
-
             <a
               href={site.linkedin}
               target="_blank"
