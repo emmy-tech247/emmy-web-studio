@@ -25,7 +25,7 @@ export const audiences = [
 ];
 
 export const projects = [
-  { title: "Modern school website", text: "Next.js, TypeScript and PostgreSQL. Programmes, activities and school services in one clear site.", url: "https://school-delta-jade.vercel.app/" },
+  { title: "Modern school website", text: "Modern school websites that attract students, engage parents and simplify communication.", url: "https://school-delta-jade.vercel.app/" },
   { title: "Real estate website", text: "Responsive property pages and discovery layouts for desktop, tablet and mobile.", url: "https://real-estate-using-nextjs.vercel.app/" },
   { title: "Cooperative loan management system", text: "Member management, loan processing, repayments and admin tools, running for a real cooperative.", url: "https://dcgcoop.com.ng" },
 ];
