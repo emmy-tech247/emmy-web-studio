@@ -10,7 +10,7 @@ import {
   stack,
 } from "@/site.config";
 
-const quote = wa("Hello Emmanuel, I’d like a website quote.");
+const quote = wa("Hello Admin, I’d like a website quote.");
 
 export default function Home() {
   return (
@@ -325,7 +325,7 @@ export default function Home() {
 
                   <a
                     className={`btn${p.featured ? "" : " alt"}`}
-                    href={wa(`Hello Emmanuel, I’m interested in the ${p.name} package. Please provide more information.`)}
+                    href={wa(`Hello Admin, I’m interested in the ${p.name} package. Please provide more information.`)}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -356,7 +356,7 @@ export default function Home() {
                 </ul>
               </div>
 
-              <a className="btn" href={wa("Hello Emmanuel, please tell me about your website hosting and maintenance plans.")} target="_blank" rel="noopener noreferrer">
+              <a className="btn" href={wa("Hello Admin, please tell me about your website hosting and maintenance plans.")} target="_blank" rel="noopener noreferrer">
                 Explore Care Plans <span>↗</span>
               </a>
             </div>
@@ -436,7 +436,7 @@ export default function Home() {
                   Request a Free Quote <span>↗</span>
                 </a>
 
-                <a className="btn alt" href={wa("Hello Emmanuel, I would like to chat with your team.")} target="_blank" rel="noopener noreferrer">
+                <a className="btn alt" href={wa("Hello Admin, I would like to chat with your team.")} target="_blank" rel="noopener noreferrer">
                   Chat With Our Team
                 </a>
 
